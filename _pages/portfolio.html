@@ -2,13 +2,303 @@
 layout: archive
 title: "Portfolio"
 permalink: /portfolio/
-author_profile: true
+author_profile: false
 ---
 
-{% include base_path %}
 
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Grants</title>
+    <style>
+        :root {
+            /* 白天模式变量 */
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --heading-color: #2c3e50;
+            --card-bg: #f8f9fa;
+            --border-color: #e0e0e0;
+            --primary-color: #3498db;
+            --secondary-color: #27ae60;
+            --accent-gray: #7f8c8d;
+            --highlight-bg: #f0f7ff;
+            --pending-color: #f39c12;
+        }
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+        @media (prefers-color-scheme: dark) {
+            :root {
+                /* 黑夜模式变量 */
+                --bg-color: #1a1a1a;
+                --text-color: #e0e0e0;
+                --heading-color: #ecf0f1;
+                --card-bg: #2d2d2d;
+                --border-color: #404040;
+                --primary-color: #5dade2;
+                --secondary-color: #58d68d;
+                --accent-gray: #bdc3c7;
+                --highlight-bg: #2c3e50;
+                --pending-color: #f7dc6f;
+            }
+        }
 
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 30px;
+            max-width: 1000px;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        h1 {
+            color: var(--heading-color);
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        
+        .total-amount {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: var(--secondary-color);
+            padding: 12px 0;
+            border-bottom: 2px solid var(--secondary-color);
+        }
+        
+        .section-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin: 40px 0 20px 0;
+            color: var(--heading-color);
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .grant-item {
+            margin-bottom: 18px;
+            padding: 15px;
+            padding-left: 35px;
+            position: relative;
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+        }
+        
+        .grant-item:hover {
+            background-color: var(--highlight-bg);
+        }
+        
+        .grant-item.pending {
+            border-left: 3px solid var(--pending-color);
+        }
+        
+        .item-number {
+            position: absolute;
+            left: 10px;
+            top: 15px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        
+        .grant-status {
+            color: var(--pending-color);
+            font-weight: 500;
+            margin-right: 10px;
+        }
+        
+        .role {
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-right: 5px;
+        }
+        
+        .funding-amount {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin: 0 5px;
+        }
+        
+        .grant-title {
+            color: var(--text-color);
+            margin: 8px 0;
+        }
+        
+        .grant-code {
+            font-family: 'Courier New', monospace;
+            color: var(--accent-gray);
+            font-size: 0.9em;
+            margin-right: 15px;
+        }
+        
+        .grant-years {
+            color: var(--accent-gray);
+            font-weight: 500;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            body {
+                margin: 15px;
+            }
+            
+            .grant-item {
+                padding: 12px;
+                padding-left: 30px;
+            }
+            
+            .grant-code {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Research Grants</h1>
+    
+    <div class="total-amount">
+        Research Grants Awarded <div class="role"> (PI, Awarded HKS 6.85M grants in total) </div> 
+    </div>
+    
+    <div class="section-title">Research Grants Awarded</div>
+    
+    <div class="grant-item">
+        <div class="item-number">1.</div>
+        <span class="role">PI</span>, ITF-ITSP, 
+        <span class="funding-amount">HKS 1.35M</span>, 
+        <div class="grant-title">"Next-Generation Integrated Dual-Mode EV Charging Station: A High-Efficiency Compact Solution with Advanced Power Conversion Topology for Wired and Wireless Charging"</div>
+        <span class="grant-code">ITS/145/24</span>, 
+        <span class="grant-years">2026–2027</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">2.</div>
+        <span class="role">PI</span>, HK ITF-ITSP, 
+        <span class="funding-amount">HKS 2M</span>, 
+        <div class="grant-title">"A Compact and Battery-Friendly Dynamic Wireless Electric Vehicle Charging Infrastructure with Flat Hub Profile"</div>
+        <span class="grant-code">ITF/2018/24P</span>, 
+        <span class="grant-years">2025–2026</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">3.</div>
+        <span class="role">PI</span>, HK ITF-Research Talent Hub (RTH), 
+        <span class="funding-amount">HKS 2.55M</span>, 
+        <span class="grant-code">PIH/420/24, PIH/421/24, PIH/095/25, and PIH/161/25</span>, 
+        <span class="grant-years">2024–2026</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">4.</div>
+        <span class="role">PI</span>, PolyU Start-up Fund, 
+        <span class="funding-amount">HKS 250k</span>, 
+        <div class="grant-title">"A Compact Hybrid Wired and Wireless EV Charger with High Power Density and Low Cost"</div>
+        <span class="grant-code">P0046689</span>, 
+        <span class="grant-years">2023–2027</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">5.</div>
+        <span class="role">PI</span>, PolyU Postdoc Matching Fund, 
+        <span class="funding-amount">HKS 300k</span>, 
+        <span class="grant-code">P0055231</span>, 
+        <span class="grant-years">2025–2027</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">6.</div>
+        <span class="role">PI</span>, PolyU Research Fund, 
+        <span class="funding-amount">HKS 313k</span>, 
+        <div class="grant-title">"Parameter Identification and Condition Monitoring of Dynamic Wireless Electric Vehicle Charging Systems"</div>
+        <span class="grant-code">P0056100</span>, 
+        <span class="grant-years">2025–2029</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">7.</div>
+        <span class="role">PI</span>, PolyU Seed Fund, 
+        <div class="grant-title">"Research on Signal-Power-Integrated Wireless Gate Drivers for Modular Multilevel Converters"</div>
+        <span class="grant-code">P0056663</span>, 
+        <span class="grant-years">2023–2026</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">8.</div>
+        <span class="role">Co-I</span>, HK MTR Research Fund, 
+        <span class="funding-amount">HKS 1.09M</span>, 
+        <div class="grant-title">"Developing an Electromagnetic Energy Harvesting System to Energize Monitoring Systems in the Hong Kong MTR System"</div>
+        <span class="grant-code">PTU-23024</span>, 
+        <span class="grant-years">2025–2028</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">9.</div>
+        <span class="role">Co-I</span>, HK RGC GRF, 
+        <span class="funding-amount">HKS 870k</span>, 
+        <div class="grant-title">"Developing a dual charge path enhanced wave energy harvester as an offshore wireless power source and self-powered sensors"</div>
+        <span class="grant-code">15207125</span>, 
+        <span class="grant-years">2026–2028</span>.
+    </div>
+    
+    <div class="section-title">Research Grants Pending</div>
+    
+    <div class="grant-item pending">
+        <div class="item-number">10.</div>
+        <span class="grant-status">(Shortlisted)</span>
+        <span class="role">Co-PI</span>, HK RGC-CRF-YCRG, 
+        <span class="funding-amount">HKS 4.38M</span>, 
+        <div class="grant-title">"Circular Approach for Recyclable Power Electronics by Bridging Device Innovation and System-level Reuse"</div>
+        <span class="grant-code">C5066-25Y</span>, 
+        <span class="grant-years">2026–2029</span>.
+    </div>
+    
+    <div class="grant-item pending">
+        <div class="item-number">11.</div>
+        <span class="grant-status">(Shortlisted)</span>
+        <span class="role">Co-I</span>, NSFC/RGC-JRS, 
+        <span class="funding-amount">HKS 1.25M</span>, 
+        <div class="grant-title">"Research on Optimal Collaborative Efficiency Enhancement Operation of Renewable Distribution Power Network and 5G Base Stations Clusters"</div>
+        <span class="grant-code">N_PolyU592/25</span>, 
+        <span class="grant-years">2026–2029</span>.
+    </div>
+    
+    <div class="section-title">Research Projects Participated (as Member)</div>
+    
+    <div class="grant-item">
+        <div class="item-number">1.</div>
+        <span class="role">Key Member</span>, HK ITF-TMRP, 
+        <span class="funding-amount">HKS 6.58M</span>, 
+        <div class="grant-title">"High-Power-Density High-Efficiency On-Board Electric Vehicle Charger Based on Thermally Enhanced Silicon Carbide Power Module and Advanced Power Conversion Technologies"</div>
+        <span class="grant-code">MRP/019/21X</span>, 
+        <span class="grant-years">2022–2025</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">2.</div>
+        <span class="role">Member</span>, PolyU Carbon Neutrality Fund, 
+        <span class="funding-amount">HKS 2M</span>, 
+        <div class="grant-title">"An Intelligent and Ultra-fast Charging Station at PolyU"</div>
+        <span class="grant-years">2024–2026</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">3.</div>
+        <span class="role">Key PFC Member</span>, HK ITF-ITSP, 
+        <span class="funding-amount">HKS 4.09M</span>, 
+        <div class="grant-title">"Development of a Compact and Low Cost 100kW Integrated PEV/PHEV Converter for EV Quick Chargers"</div>
+        <span class="grant-code">ITF/023/17AP</span>, 
+        <span class="grant-years">2017–2019</span>.
+    </div>
+    
+    <div class="grant-item">
+        <div class="item-number">4.</div>
+        <span class="role">Key Member</span>, HK ITF-ITSP, 
+        <span class="funding-amount">HKS 2.75M</span>, 
+        <div class="grant-title">"Research and Development of High Efficient Medium Wireless Charging System"</div>
+        <span class="grant-code">ITF/094/15AP</span>, 
+        <span class="grant-years">2016–2018</span>.
+    </div>
+</body>
+</html>

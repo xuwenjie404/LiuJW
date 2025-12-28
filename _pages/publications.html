@@ -1,36 +1,203 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
+layout: single
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div style="text-align: justify; text-justify: inter-word; line-height: 1.6;">
+<div style="text-align: justify; text-justify: inter-word; line-height: 1.6;">
 
-{% include base_path %}
+  <div style="background-color: rgba(52, 152, 219, 0.08); padding: 20px; border-left: 5px solid #3498db; margin-bottom: 35px; border-radius: 0 8px 8px 0; display: flex; justify-content: space-around; flex-wrap: wrap;">
+    <div style="text-align: center; margin: 10px;">
+      <span style="font-size: 1.8em; font-weight: bold; color: #3498db;">31</span><br><small>Journal Papers</small>
+    </div>
+    <div style="text-align: center; margin: 10px;">
+      <span style="font-size: 1.8em; font-weight: bold; color: #3498db;">18</span><br><small>Conference Papers</small>
+    </div>
+    <div style="text-align: center; margin: 10px;">
+      <span style="font-size: 1.8em; font-weight: bold; color: #3498db;">3</span><br><small>Patents</small>
+    </div>
+    <div style="text-align: center; margin: 10px;">
+      <span style="font-size: 1.8em; font-weight: bold; color: #c80f2e;">Top-Q1</span><br><small> TIE/TPEL/JESTPE</small>
+    </div>
+  </div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <p style="margin-bottom: 25px;">
+    <i class="fas fa-external-link-alt"></i> Detailed metrics are available at 
+    <a href="https://scholar.google.com/citations?user=YOUR_ID" style="color: #3498db; font-weight: bold; text-decoration: none;">Google Scholar</a>.
+  </p>
+
+  <h2 style="border-left: 5px solid #3498db; padding-left: 15px; margin-bottom: 25px;">Journal Publications</h2>
+<ul style="list-style: none; padding-left: 0;">
+
+    <li style="margin-bottom: 25px;">
+      J. Wang, <strong>Junwei Liu</strong>, et al. "Theoretical Modeling of Magnetic Spring-Based Electromagnetic Energy Harvesters for Electrified Transportation Sensors," <em>IEEE Transactions on Power Electronics</em>, 2025.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TPEL</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">Energy Harvesting</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>H. Meng</strong>, <strong>Junwei Liu*</strong>, et al. "An Online Gate Oxide Degradation Monitoring Method for SiC MOSFETs Based on Turn-on Gate Current Change Rate," <em>IEEE Transactions on Power Electronics</em>, 2025.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TPEL</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">SiC</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">Reliability</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>Y. Zhang</strong>, <strong>Junwei Liu</strong>, et al. "Multi-degree-of-freedom decoupled mechanism for improving energy harvesting performance of wave energy converter," <em>Energy Conversion and Management</em>, 2025.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / ECM</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">IF: 9.9</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>D. Mou</strong>, et al., <strong>Junwei Liu</strong>. "Development and Optimization of Three-DoF Modulation for Single-Stage Matrix AC-DC Converters Based on Real-Time Calculation," <em>IEEE Transactions on Industrial Electronics</em>, 2024.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TIE</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">Matrix Converter</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>F. Xu</strong>, <strong>Junwei Liu*</strong> and X. Zhang. "Analysis of Deadtime Effects and Optimum Deadtime Control for Bidirectional Inductive Power Transfer Converters," <em>IEEE Transactions on Industrial Electronics</em>, 2024.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TIE</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">WPT</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>Junwei Liu</strong>, C. S. Wong, et al. "An Integrated Three-Phase AC-DC Wireless-Power-Transfer Converter with Active Power Factor Correction Using Three Transmitter Coils," <em>IEEE Transactions on Power Electronics</em>, 2023.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TPEL</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">Three-Phase</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">PFC</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>Junwei Liu</strong>, F. Xu, C. Sun and K. H. Loo. "A Compact Single-Phase AC-DC Wireless Power Transfer Converter With Active Power Factor Correction," <em>IEEE Transactions on Industrial Electronics</em>, 2023.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TIE</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">WPT</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>C. S. Wong</strong>, <strong>Junwei Liu*</strong>, et al. "A SWISS-Rectifier-Based Single-Stage Three-Phase Bidirectional AC-DC Inductive-Power-Transfer Converter for V2G Applications," <em>IEEE Transactions on Power Electronics</em>, 2023.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TPEL</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">V2G</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">SST Concept</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>F. Xu</strong>, <strong>Junwei Liu*</strong> and Z. Dong. "Minimum Backflow Power and ZVS Design for Dual-Active-Bridge DC-DC Converters," <em>IEEE Transactions on Industrial Electronics</em>, 2023.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TIE</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">DAB</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>Junwei Liu</strong>, F. Xu, C. Sun and K. H. Loo. "A Soft-Switched Power-Factor-Corrected Single-Phase Bidirectional AC-DC Wireless Power Transfer Converter with an Integrated Power Stage," <em>IEEE Transactions on Power Electronics</em>, 2022.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TPEL</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">Bidirectional</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>Junwei Liu</strong>, G. Wang, et al. "A Parameter Identification Approach with Primary-Side Measurement for DC-DC Wireless-Power-Transfer Converters," <em>IEEE Transactions on Transportation Electrification</em>, 2021.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TTE</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">Parameter ID</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>Junwei Liu</strong>, et al. "A Three-Phase Single-Stage AC-DC Wireless-Power-Transfer Converter with Power Factor Correction," <em>IEEE JESTPE</em>, 2020.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / JESTPE</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">Three-Phase</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>Junwei Liu</strong>, et al. "Single-Stage Wireless-Power-Transfer Resonant Converter with Boost Bridgeless PFC Rectifier," <em>IEEE Transactions on Industrial Electronics</em>, 2018.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">Q1 / TIE</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">Classic</span>
+      </div>
+    </li>
+    
+  </ul>
 
 
+  <h2 style="border-left: 5px solid #3498db; padding-left: 15px; margin-top: 45px; margin-bottom: 25px;">Conference Publications</h2>
+   <ul style="list-style: none; padding-left: 0;">
+
+    <li style="margin-bottom: 25px;">
+      <strong>Junwei Liu*</strong>, et al. "Medium-Voltage Single-Stage Solid-State Transformer Based Fast Charger for Electric Vehicles," <em>IEEE ITEC</em>, 2025.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">ITEC 2025</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">MV SST</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>W. Xu</strong>, <strong>Junwei Liu*</strong>, et al. "Concentric Circular Coil-Based Coreless PCB Coupler for Medium Voltage Gate Drivers," <em>IEEE ECCE</em>, 2025.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">ECCE 2025</span>
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; padding: 2px 8px; border-radius: 3px;">Gate Driver</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>Junwei Liu</strong>, et al. "A Soft-Switched Bidirectional Single-Phase Single-Stage AC-DC Isolated Converter," <em>IEEE ECCE</em>, 2024.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">ECCE 2024</span>
+      </div>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+      <strong>M. T. Faiz</strong>, <strong>Junwei Liu</strong>, et al. "Exploring the Potential of EV Motor Winding in LCL Filter Design for On-Board Chargers," <em>EPE’23 ECCE Europe</em>, 2023.
+      <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <span style="background-color: rgba(52, 152, 219, 0.1); color: #3498db; font-size: 0.75em; font-weight: bold; padding: 2px 8px; border-radius: 3px;">ECCE Europe</span>
+      </div>
+    </li>
+  </ul>
+
+<h2 style="border-left: 5px solid #3498db; padding-left: 15px; margin-top: 45px; margin-bottom: 25px;">Under Review</h2>
+
+    <ul style="list-style: none; padding-left: 0;">
+        <li style="margin-bottom: 20px;">
+        "A Fault-Tolerance Strategy for Parallel Inverters in Grid-Connected Power Conversion System," <em>IEEE JESTPE</em>, Under Review.
+        </li>
+        <li style="margin-bottom: 20px;">
+        "Designing Robust Control Loops for LCL Filtered Motor-Integrated EV On-Board Chargers," <em>IEEE TTE</em>, Under Review.
+        </li>
+        <li style="margin-bottom: 20px;">
+        "Design of High-Power Density Cantilever Beam Electromagnetic Energy Harvesters with Core and Coil Optimization for Transportation Sensors." <em>IEEE TPEL</em>, Under Review.
+        </li>
+    </ul>
+
+  <h2 style="border-left: 5px solid #3498db; padding-left: 15px; margin-top: 45px; margin-bottom: 25px;">Patents</h2>
+    <ul style="list-style: none; padding-left: 0;">
+    <li style="margin-bottom: 15px;"><i class="fas fa-certificate" style="color: #3498db;"></i> <strong>US Patent US20240350637A1</strong>: Multifunctional charging circuit, electric device, and charging system.</li>
+    <li style="margin-bottom: 15px;"><i class="fas fa-certificate" style="color: #3498db;"></i> <strong>CN Patent 202310419857.6</strong>: 多功能充电电路、电动设备及充电系统.</li>
+    <li style="margin-bottom: 15px;"><i class="fas fa-certificate" style="color: #3498db;"></i> <strong>CN Patent 202511313776.7</strong>: 一种变压器、变压器及配电系统.</li>
+  </ul>
+</div>
+<!-- {% include base_path %}-->
+
+
+ 
 
