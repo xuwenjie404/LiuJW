@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# Biography
+### Biography
 
 **Dr. Junwei LIU** is currently a **Research Assistant Professor** in the [Department of Electrical Engineering at The Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junwei/). He earned his Ph.D. in Power Electronics from PolyU in 2018 under the prestigious **Hong Kong PhD Fellowship Scheme (HKPFS)**, following his undergraduate excellence (Top 3% Ranking) at Huazhong University of Science and Technology.Dr. Liu’s research caliber is globally recognized, evidenced by his inclusion in the **World’s Top 2% Scientists** list by Stanford University (2025). His innovative contributions to the field have earned him high-profile accolades, most notably a **Gold Medal at the 49th International Exhibition of Inventions Geneva (2024)**, reflecting his ability to bridge the gap between fundamental research and high-impact industrial applications.
 
@@ -70,7 +70,7 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
 
 Dr. Liu currently leads a dedicated research group at PolyU, distinguished by integrating the 5 expertise of senior Postdoctoral Fellows with the 2 creative energy of Doctoral Scholars.The team has already demonstrated its high-impact potential through international recognition. The group is uniquely positioned as an innovation powerhouse, dedicated to reimagining power architectures for the next generation SiC devices.
 
-![Group Photo](../images/Group.jpg "PolyU Advanced Power Electronic Research Group Portrait")
+![Group Photo](../images/LJW.jpg "PolyU Advanced Power Electronic Research Group Portrait")
 <p style="text-align: center; color: #d4af37; font-style: italic; font-size: 0.9em;">PolyU Advanced Power Electronic Research Group (PAPER).</p>
 
 
