@@ -70,7 +70,5 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
 
 Dr. Liu currently leads a dedicated research group at PolyU, distinguished by integrating the 5 expertise of senior Postdoctoral Fellows with the 2 creative energy of Doctoral Scholars.The team has already demonstrated its high-impact potential through international recognition. The group is uniquely positioned as an innovation powerhouse, dedicated to reimagining power architectures for the next generation SiC devices.
 
-![Group Photo](../images/LJW.jpg "PolyU Advanced Power Electronic Research Group Portrait")
-<p style="text-align: center; color: #d4af37; font-style: italic; font-size: 0.9em;">PolyU Advanced Power Electronic Research Group (PAPER).</p>
-
-
+![Group Photo](../images/Group.jpg)
+<p style="text-align: center; color: #d4af37; font-style: italic; font-size: 0.9em;">PolyU Advanced Power Electronic Research (PAPER) Group Portrait.</p>
