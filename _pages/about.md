@@ -9,17 +9,17 @@ redirect_from:
 
 ### Biography
 
-**Dr. Junwei LIU** is currently a **Research Assistant Professor** in the [Department of Electrical Engineering at The Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junwei/). He earned his Ph.D. in Power Electronics from PolyU in 2018 under the prestigious **Hong Kong PhD Fellowship Scheme (HKPFS)**, following his undergraduate excellence (Top 3% Ranking) at Huazhong University of Science and Technology.Dr. Liu’s research caliber is globally recognized, evidenced by his inclusion in the **World’s Top 2% Scientists** list by Stanford University (2025). His innovative contributions to the field have earned him high-profile accolades, most notably a **Gold Medal at the 49th International Exhibition of Inventions Geneva (2024)**, reflecting his ability to bridge the gap between fundamental research and high-impact industrial applications.
+**Dr. Junwei LIU** is currently a **Research Assistant Professor** in the [Department of Electrical Engineering at The Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junwei/). He earned his Ph.D. in Power Electronics from PolyU in 2018 under the prestigious **Hong Kong PhD Fellowship Scheme (HKPFS)**. And he received the Bachelor of Engineering in Water Conservancy and Hydropower Engineering with undergraduate excellence (Top 3% Ranking) at Huazhong University of Science and Technology in 2012. He leads group to focus the advancement of 3-rd generation WBG device, isolated gate driver technology, power converter, solid-state transformer(SST), modular multilevel converter (MMC) in medium voltage application. His innovative contributions to the field have earned him high-profile accolades, most notably a **Gold Medal at the 49th International Exhibition of Inventions Geneva (2024)**, reflecting his ability to bridge the gap between fundamental research and high-impact industrial applications.  Dr. Liu’s research caliber is globally recognized, evidenced by his inclusion in the **World’s Top 2% Scientists** list by Stanford University (2025).
 
 ###  Technical Expertise & Research Leadership
 
 With dedication to advanced power electronic technologies, Dr. Liu has established a formidable track record in:
 
-* **Integrated Wireless Power Transfer (WPT):** High-power, high-efficiency topologies for electric vehicles (EV) and industrial automation.
+* **Integrated Wireless Power Transfer (WPT):** High-power, high-density, integrated topologies for electric vehicles (EV) and industrial automation.
 
-* **Next-Generation Power Converters:** Expertise in **Medium-Voltage (MV) Silicon Carbide (SiC)** applications and **Solid-State Transformers (SST)**.
+* **Next-Generation Power Converters:** Expertise in **Medium-Voltage (MV) Silicon Carbide (SiC)** gate driver system design and **Solid-State Transformers (SST)** modulation optimization.
 
-* **Smart Grid & Transportation:** Developing resilient grid interfaces and sustainable energy solutions for electrified transportation.
+* **Smart Grid & Transportation:** Developing resilient grid interfaces and sustainable energy solutions for electrified transportation and energy harvest.
 
 ###  Grant & Research Impact
 As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led multiple competitive research grants totaling over **HK$ 6.8 million**, including major projects funded by the **Innovation and Technology Fund (ITF)**. His prolific scholarly output includes **30+ high-impact journal papers** (predominantly IEEE TPEL Q1) focusing state-of-the-art technology in EEE research.
@@ -32,7 +32,7 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
 <div style="margin-bottom: 25px;">
   <strong style="color: #3498db;">2023.02 – Present</strong> <br>
   <strong>Research Assistant Professor</strong> | The Hong Kong Polytechnic University
-  <ul style="margin-top: 5px; font-size: 0.95em; color: #444;">
+  <ul style="margin-top: 5px; font-size: 0.95em;">
     <li>Leading an elite research unit of <b>5 Postdoctoral Fellows</b> and <b>5 Ph.D./Research Students</b>.</li>
     <li>Directing high-stakes R&D projects funded by competitive grants ($6.8M+).</li>
   </ul>
@@ -41,7 +41,7 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
 <div style="margin-bottom: 25px;">
   <strong style="color: #3498db;">2021.03 – 2023.02</strong> <br>
   <strong>Research Fellow</strong> | The Hong Kong Polytechnic University
-  <ul style="margin-top: 5px; font-size: 0.95em; color: #444;">
+  <ul style="margin-top: 5px; font-size: 0.95em;">
     <li>Engineered a flagship 11-kW on-board EV charger with a peak efficiency of <b>96.6%</b>.</li>
     <li>Breakthrough in power density (<b>3.5-kW/L</b>) using novel single-stage AC/DC topologies.</li>
   </ul>
@@ -64,11 +64,64 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
 
 </div>
 
+
+<h3 style="border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 40px;">Academic Activities</h3>
+
+<div style="text-align: justify; line-height: 1.5; padding-left: 10px;">
+
+  <div style="margin-bottom: 20px;">
+    <p style="margin-bottom: 8px;"><strong><i class="fas fa-edit" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Editorial & Committee Appointments</strong></p>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 0.95em; color: #444; margin-top: 5px;">
+      <li style="margin-bottom: 5px;">Technical Committee Member, Railway Electrification of IEEE Transportation Electrification Council.</li>
+      <li style="margin-bottom: 5px;">Guest Associate Editor, Special Issue on <em>Safe and Advanced Low-Carbon Rail Transportation Electrification Technologies</em>, High-speed Railway.</li>
+      <li style="margin-bottom: 5px;">Competition Chair & Session Chair, 10th International Conference on Power Electronics Systems and Applications (PESA 2024).</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <p style="margin-bottom: 8px;"><strong><i class="fas fa-university" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Institutional Affiliations (PolyU)</strong></p>
+    <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-left: 5px;">
+      <span style="background-color: rgba(52, 152, 219, 0.05); color: #555; border: 1px solid rgba(52, 152, 219, 0.15); padding: 3px 10px; border-radius: 15px; font-size: 0.85em;">Research Centre for Grid Modernisation</span>
+      <span style="background-color: rgba(52, 152, 219, 0.05); color: #555; border: 1px solid rgba(52, 152, 219, 0.15); padding: 3px 10px; border-radius: 15px; font-size: 0.85em;">Research Centre for Electric Vehicles</span>
+      <span style="background-color: rgba(52, 152, 219, 0.05); color: #555; border: 1px solid rgba(52, 152, 219, 0.15); padding: 3px 10px; border-radius: 15px; font-size: 0.85em;">Research Institute for Smart Energy</span>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <p style="margin-bottom: 5px;"><strong><i class="fas fa-users" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Professional Memberships</strong></p>
+    <p style="color: #555; font-size: 0.95em; margin-left: 5px; margin-top: 0;">
+      IEEE Member: <span style="color: #3498db;">PES</span>, <span style="color: #3498db;">IES</span>, and <span style="color: #3498db;">PELS</span>.
+    </p>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <p style="margin-bottom: 8px;"><strong><i class="fas fa-microphone-alt" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Invited Presentations</strong></p>
+    <ul style="list-style: disc; padding-left: 20px; font-size: 0.95em; color: #444; margin-top: 5px;">
+      <li style="margin-bottom: 5px;">Invited Speaker & Tutorial Speaker, PESA, Hong Kong, 2024.</li>
+      <li style="margin-bottom: 5px;">Invited Speaker, 11th Int. Conf. of Precision Agricultural Aviation, Guangzhou, 2024.</li>
+    </ul>
+  </div>
+
+  <div>
+    <p style="margin-bottom: 8px;"><strong><i class="fas fa-check-circle" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Professional Review Service</strong></p>
+    <p style="margin-bottom: 8px; font-size: 0.95em; color: #555; margin-left: 5px;">Active reviewer for top-tier journals (120+ reviews for IEEE TIE):</p>
+    <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-left: 5px;">
+      <span style="color: #777; font-size: 0.8em; padding: 1px 6px; border-radius: 3px; border: 1px solid #eee; background: #fafafa;">IEEE TIE</span>
+      <span style="color: #777; font-size: 0.8em; padding: 1px 6px; border-radius: 3px; border: 1px solid #eee; background: #fafafa;">IEEE TPEL</span>
+      <span style="color: #777; font-size: 0.8em; padding: 1px 6px; border-radius: 3px; border: 1px solid #eee; background: #fafafa;">IEEE TTE</span>
+      <span style="color: #777; font-size: 0.8em; padding: 1px 6px; border-radius: 3px; border: 1px solid #eee; background: #fafafa;">IEEE JESTPE</span>
+      <span style="color: #777; font-size: 0.8em; padding: 1px 6px; border-radius: 3px; border: 1px solid #eee; background: #fafafa;">IEEE TEC</span>
+    </div>
+  </div>
+
+</div>
+
 ---
 
 ### The Research Group
 
-Dr. Liu currently leads a dedicated research group at PolyU, distinguished by integrating the 5 expertise of senior Postdoctoral Fellows with the 2 creative energy of Doctoral Scholars.The team has already demonstrated its high-impact potential through international recognition. The group is uniquely positioned as an innovation powerhouse, dedicated to reimagining power architectures for the next generation SiC devices.
+Dr. Liu currently leads the PolyU Advanced Power Electronics Research (PAPER) group, a distinctive team comprising five senior postdoctoral fellows and two highly self-motivated, creative PhD students. The team has already gained international recognition for its research outcomes, demonstrating notable impact. The group is dedicated to push the boundary of the application for next-generation medium-voltage power electronic converter applications.
+
 
 ![Group Photo](../images/Group.jpg)
-<p style="text-align: center; color: #d4af37; font-style: italic; font-size: 0.9em;">PolyU Advanced Power Electronic Research (PAPER) Group Portrait.</p>
+<p style="text-align: center; color: #d4af37; font-style: italic; font-size: 0.9em;">PAPER Group Portrait.</p>
