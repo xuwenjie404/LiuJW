@@ -89,7 +89,7 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
 
   <div style="margin-bottom: 20px;">
     <p style="margin-bottom: 5px;"><strong><i class="fas fa-users" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Professional Memberships</strong></p>
-    <p style= font-size: 0.95em; margin-left: 5px; margin-top: 0;">
+    <p style= "font-size: 0.95em; margin-left: 5px; margin-top: 0">
       IEEE Member: <span style="color: #3498db;">PES</span>, <span style="color: #3498db;">IES</span>, and <span style="color: #3498db;">PELS</span>.
     </p>
   </div>
