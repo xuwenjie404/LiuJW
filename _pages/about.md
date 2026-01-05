@@ -124,4 +124,4 @@ Dr. Liu currently leads the PolyU Advanced Power Electronics Research (PAPER) gr
 
 
 ![Group Photo](../images/Group.jpg)
-<p style="text-align: center; color: #d4af37; font-style: italic; font-size: 0.9em;">PAPER Group Portrait.</p>
+<p style="text-align: center; color: #d4af37; font-style: italic; font-size: 0.9em;"><b>PAPER Group Portrait<b>.</p>
