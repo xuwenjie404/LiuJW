@@ -71,7 +71,7 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
 
   <div style="margin-bottom: 20px;">
     <p style="margin-bottom: 8px;"><strong><i class="fas fa-edit" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Editorial & Committee Appointments</strong></p>
-    <ul style="list-style: disc; padding-left: 20px; font-size: 0.95em; color: #444; margin-top: 5px;">
+    <ul style="list-style: disc; padding-left: 20px; font-size: 0.95em; margin-top: 5px;">
       <li style="margin-bottom: 5px;">Technical Committee Member, Railway Electrification of IEEE Transportation Electrification Council.</li>
       <li style="margin-bottom: 5px;">Guest Associate Editor, Special Issue on <em>Safe and Advanced Low-Carbon Rail Transportation Electrification Technologies</em>, High-speed Railway.</li>
       <li style="margin-bottom: 5px;">Competition Chair & Session Chair, 10th International Conference on Power Electronics Systems and Applications (PESA 2024).</li>
@@ -81,22 +81,22 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
   <div style="margin-bottom: 20px;">
     <p style="margin-bottom: 8px;"><strong><i class="fas fa-university" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Institutional Affiliations (PolyU)</strong></p>
     <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-left: 5px;">
-      <span style="background-color: rgba(52, 152, 219, 0.05); color: #555; border: 1px solid rgba(52, 152, 219, 0.15); padding: 3px 10px; border-radius: 15px; font-size: 0.85em;">Research Centre for Grid Modernisation</span>
-      <span style="background-color: rgba(52, 152, 219, 0.05); color: #555; border: 1px solid rgba(52, 152, 219, 0.15); padding: 3px 10px; border-radius: 15px; font-size: 0.85em;">Research Centre for Electric Vehicles</span>
-      <span style="background-color: rgba(52, 152, 219, 0.05); color: #555; border: 1px solid rgba(52, 152, 219, 0.15); padding: 3px 10px; border-radius: 15px; font-size: 0.85em;">Research Institute for Smart Energy</span>
+      <span style="background-color: rgba(52, 152, 219, 0.05); border: 1px solid rgba(52, 152, 219, 0.15); padding: 3px 10px; border-radius: 15px; font-size: 0.85em;">Research Centre for Grid Modernisation</span>
+      <span style="background-color: rgba(52, 152, 219, 0.05); border: 1px solid rgba(52, 152, 219, 0.15); padding: 3px 10px; border-radius: 15px; font-size: 0.85em;">Research Centre for Electric Vehicles</span>
+      <span style="background-color: rgba(52, 152, 219, 0.05); border: 1px solid rgba(52, 152, 219, 0.15); padding: 3px 10px; border-radius: 15px; font-size: 0.85em;">Research Institute for Smart Energy</span>
     </div>
   </div>
 
   <div style="margin-bottom: 20px;">
     <p style="margin-bottom: 5px;"><strong><i class="fas fa-users" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Professional Memberships</strong></p>
-    <p style="color: #555; font-size: 0.95em; margin-left: 5px; margin-top: 0;">
+    <p style= font-size: 0.95em; margin-left: 5px; margin-top: 0;">
       IEEE Member: <span style="color: #3498db;">PES</span>, <span style="color: #3498db;">IES</span>, and <span style="color: #3498db;">PELS</span>.
     </p>
   </div>
 
   <div style="margin-bottom: 20px;">
     <p style="margin-bottom: 8px;"><strong><i class="fas fa-microphone-alt" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Invited Presentations</strong></p>
-    <ul style="list-style: disc; padding-left: 20px; font-size: 0.95em; color: #444; margin-top: 5px;">
+    <ul style="list-style: disc; padding-left: 20px; font-size: 0.95em; margin-top: 5px;">
       <li style="margin-bottom: 5px;">Invited Speaker & Tutorial Speaker, PESA, Hong Kong, 2024.</li>
       <li style="margin-bottom: 5px;">Invited Speaker, 11th Int. Conf. of Precision Agricultural Aviation, Guangzhou, 2024.</li>
     </ul>
@@ -104,7 +104,7 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
 
   <div>
     <p style="margin-bottom: 8px;"><strong><i class="fas fa-check-circle" style="color: #3498db; margin-right: 5px; font-size: 0.9em;"></i> Professional Review Service</strong></p>
-    <p style="margin-bottom: 8px; font-size: 0.95em; color: #555; margin-left: 5px;">Active reviewer for top-tier journals (120+ reviews for IEEE TIE):</p>
+    <p style="margin-bottom: 8px; font-size: 0.95em; margin-left: 5px;">Active reviewer for top-tier journals (120+ reviews for IEEE TIE):</p>
     <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-left: 5px;">
       <span style="color: #777; font-size: 0.8em; padding: 1px 6px; border-radius: 3px; border: 1px solid #eee; background: #fafafa;">IEEE TIE</span>
       <span style="color: #777; font-size: 0.8em; padding: 1px 6px; border-radius: 3px; border: 1px solid #eee; background: #fafafa;">IEEE TPEL</span>
