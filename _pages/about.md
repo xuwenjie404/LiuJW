@@ -1,27 +1,126 @@
 ---
 permalink: /
-title: "About me "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+<div id="professor-card" style="
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid #000000;
+  border-radius: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  color: #000000;
+  text-align: left;
+">
+  
+  <div style="margin-bottom: 12px;">
+    <h1 style="
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 0 8px 0;
+      letter-spacing: 0.5px;
+      color: #000000;
+    ">
+      Dr. LIU Junwei
+    </h1>
+  </div>
+  
+  <div style="
+    margin-bottom: 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #000000;
+  ">
+    <div style="
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #000000;
+    ">
+      Research Assistant Professor
+    </div>
+    <div style="
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 15px;
+      color: #000000;
+      margin-bottom: 4px;
+    ">
+      Department of Electrical and Electronic Engineering
+    </div>
+    <div style="
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 15px;
+      color: #000000;
+    ">
+      The Hong Kong Polytechnic University
+    </div>
+  </div>
+  
+  <div style="
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #000000;
+  ">
+    <div style="margin-bottom: 8px;">
+      <span style="
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        display: inline-block;
+        width: 60px;
+        color: #000000;
+      ">
+        Office:
+      </span>
+      <span>DE633</span>
+    </div>
+    <div style="margin-bottom: 8px;">
+      <span style="
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        display: inline-block;
+        width: 60px;
+        color: #000000;
+      ">
+        Tel:
+      </span>
+      <span>+852 2766 6129</span>
+    </div>
+    <div style="margin-bottom: 2px;">
+      <span style="
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        display: inline-block;
+        width: 60px;
+        color: #000000;
+      ">
+        Email:
+      </span>
+      <a href="mailto:junwei.jw.liu@polyu.edu.hk" 
+         style="
+           font-family: 'Times New Roman', Times, serif;
+           color: #000000;
+           text-decoration: underline;
+           font-weight: 500;
+         ">
+        junwei.jw.liu@polyu.edu.hk
+      </a>
+    </div>
+  </div>
+</div>
+
+
 ### Biography
 
-**Dr. Junwei LIU** is currently a **Research Assistant Professor** in the [Department of Electrical Engineering at The Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junwei/). He earned his Ph.D. in Power Electronics from PolyU in 2018 under the prestigious **Hong Kong PhD Fellowship Scheme (HKPFS)**. And he received the Bachelor of Engineering in Water Conservancy and Hydropower Engineering with undergraduate excellence (Top 3% Ranking) at Huazhong University of Science and Technology in 2012. He leads group to focus the advancement of 3-rd generation WBG device, isolated gate driver technology, power converter, solid-state transformer(SST), modular multilevel converter (MMC) in medium voltage application. His innovative contributions to the field have earned him high-profile accolades, most notably a **Gold Medal at the 49th International Exhibition of Inventions Geneva (2024)**, reflecting his ability to bridge the gap between fundamental research and high-impact industrial applications.  Dr. Liu’s research caliber is globally recognized, evidenced by his inclusion in the **World’s Top 2% Scientists** list by Stanford University (2025).
+**Dr. Junwei LIU** is currently a **Research Assistant Professor** in the [Department of Electrical Engineering at The Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junwei/). He earned his Ph.D. in Power Electronics from PolyU in 2018 under the prestigious **Hong Kong PhD Fellowship Scheme (HKPFS)**. And he received the Bachelor of Engineering in Water Conservancy and Hydropower Engineering with undergraduate excellence (Top 3% Ranking) at Huazhong University of Science and Technology in 2012. He leads group to focus the advancement of 3-rd generation WBG device, isolated gate driver technology, power converter, solid-state transformer (SST), modular multilevel converter (MMC) in medium voltage application. His innovative contributions to the field have earned him high-profile accolades, most notably a **Gold Medal at the 49th International Exhibition of Inventions Geneva (2024)**, reflecting his ability to bridge the gap between fundamental research and high-impact industrial applications.  Dr. Liu’s research caliber is globally recognized, evidenced by his inclusion in the **World’s Top 2% Scientists** list by Stanford University (2025). His academic rigor has also gained international recognition, earning him the "Outstanding Reviewer" title for two consecutive years from top IEEE journals (2021–2022).
 
-###  Technical Expertise & Research Leadership
-
-With dedication to advanced power electronic technologies, Dr. Liu has established a formidable track record in:
-
-* **Integrated Wireless Power Transfer (WPT):** High-power, high-density, integrated topologies for electric vehicles (EV) and industrial automation.
-
-* **Next-Generation Power Converters:** Expertise in **Medium-Voltage (MV) Silicon Carbide (SiC)** gate driver system design and **Solid-State Transformers (SST)** modulation optimization.
-
-* **Smart Grid & Transportation:** Developing resilient grid interfaces and sustainable energy solutions for electrified transportation and energy harvest.
-
-###  Grant & Research Impact
 As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led multiple competitive research grants totaling over **HK$ 6.8 million**, including major projects funded by the **Innovation and Technology Fund (ITF)**. His prolific scholarly output includes **30+ high-impact journal papers** (predominantly IEEE TPEL Q1) focusing state-of-the-art technology in EEE research.
 
 
