@@ -222,8 +222,8 @@ As a **Principal Investigator (PI)**, Dr. Liu has successfully secured and led m
 Dr. Liu currently leads the PolyU Advanced Power Electronics Research (PAPER) group, a distinctive team comprising five senior postdoctoral fellows and two highly self-motivated, creative PhD students. The team has already gained international recognition for its research outcomes, demonstrating notable impact. The group is dedicated to push the boundary of the application for next-generation medium-voltage power electronic converter applications.
 
 
-![Group Photo # 202409 ](../images/Group.jpg)
+![Group Photo1](../images/Group.jpg)
 <p style="text-align: center; color: #d4af37; font-style: italic; font-size: 0.9em;"><b>PAPER Group Portrait 202511<b>.</p>
 
-![Group Photo # 202601](../images/PAPERGroup20260128.jpg)
+![Group Photo2](../images/PAPERGroup20260128.png)
 <p style="text-align: center; color: #d4af37; font-style: italic; font-size: 0.9em;"><b>PAPER Group Portrait 202601<b>.</p>
